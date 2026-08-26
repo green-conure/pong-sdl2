@@ -113,25 +113,25 @@ void Game::update() {
     if (LmovingDown) {
         if (Lpaddle.y +Lpaddle.h > 600) {
         }else {
-            Lpaddle.y +=1;
+            Lpaddle.y +=5;
         }
     }
     if (LmovingUp) {
         if (Lpaddle.y < 0) {
         }else {
-            Lpaddle.y -=1;
+            Lpaddle.y -=5;
         }
     }
     if (RmovingDown) {
         if (Rpaddle.y +Rpaddle.h > 600) {
         }else {
-            Rpaddle.y +=1;
+            Rpaddle.y +=5;
         }
     }
     if (RmovingUp) {
         if (Rpaddle.y < 0) {
         }else {
-            Rpaddle.y -=1;
+            Rpaddle.y -=5;
         }
     }
     velocity();

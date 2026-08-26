@@ -1,7 +1,6 @@
 #ifndef SDL2_SANDBOX_GAME_H
 #define SDL2_SANDBOX_GAME_H
 #include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
 #include <iostream>
 using namespace std;
 
